@@ -1,0 +1,150 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #000000ea!important;
+    background-image: linear-gradient(315deg, #000000c7 0%, #ffffff 74%)no-repeat!important;
+}
+
+
+/* #navbar {
+    background-color: #63d471!important;
+    background-image: linear-gradient(315deg, #63d471 0%, #233329 74%)!important;
+} */
+
+
+/* ....content in home page... */
+
+#homepage {
+    overflow: hidden;
+}
+
+.HPimg {
+    float: left;
+    width: 50%;
+    padding: 3px;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.HPtext {
+    float: left;
+    width: 41%;
+    padding: 5px;
+    color: white;
+    margin-top: 12%;
+    margin-left: 3%;
+}
+
+
+/* Clearfix (clear floats) */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* ....information section..... */
+
+#information {
+    margin-top: 7%;
+}
+
+div.info {
+    background-color: lightgrey;
+    padding: 12px;
+    display: inline-block;
+    margin-top: 4%;
+    margin-left: 36%;
+    background-color: #3bb78f;
+    background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+}
+
+p {
+    color: white;
+}
+
+@media screen and (min-width: 601px) {
+    div.info {
+        font-size: 40px;
+    }
+    p {
+        padding: 40px;
+    }
+    div.card {
+        margin-left: 33.5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #information {
+        margin-top: 20%;
+    }
+    div.info {
+        font-size: 18px;
+    }
+    p {
+        padding: 8px;
+    }
+}
+
+
+/* .....Companies section... */
+
+.container {
+    margin: 0 auto;
+    padding: 0 10px 0 10px;
+    max-width: 900px;
+}
+
+.features {
+    color: #000000;
+}
+
+.feature {
+    align-items: center;
+    margin-top: 5%;
+    display: inline-block;
+    padding: 10px;
+    background-color: #fffffffd;
+    width: 32%;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.feature img {
+    width: 45%;
+    align-items: center;
+}
+
+
+/* ....footer.... */
+
+#footer {
+    margin-top: 100px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(80, 245, 4, 0.959);
+    max-width: 280px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.title {
+    color: rgb(14, 13, 13);
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(9, 245, 29);
+}
